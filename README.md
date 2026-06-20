@@ -177,6 +177,8 @@ Presenta los KPIs de negocio más relevantes: Revenue Total, Profit Total, Marge
 
 </details>
 
+
+
 ### Dashboard 2 — Matriz de Concentración de Demanda y Trazabilidad de Rendimiento Operativo
 
 El producto estrella manda sobre el resto.
@@ -222,6 +224,8 @@ El producto estrella manda sobre el resto.
 
 </details>
 
+
+
 ### Dashboard 3 — Matriz de Eficiencia de Portafolio y Análisis de Riesgo
 
 Diagnostico de la salud financiera del catálogo mediante una comparativa entre la facturación bruta y la rentabilidad real, revelando una dependencia crítica de activos y la existencia de transacciones que erosionan el flujo de caja.
@@ -230,6 +234,7 @@ Diagnostico de la salud financiera del catálogo mediante una comparativa entre 
   <summary><b>📊 Ver auditoría de eficiencia del portafolio y análisis de Pareto</b> (haz clic para expandir)</summary>
 
 ![Dashboard Auditoría de Portafolio - Análisis de Pareto](docs/images/gmejorado1.png)
+
  ---
 
   ### 1. Axiomas (Contexto)
@@ -265,6 +270,8 @@ Diagnostico de la salud financiera del catálogo mediante una comparativa entre 
 
 </details>
 
+
+
 ### Dashboard 4 Diagnóstico de Erosión de Valor y Distribución Regional
 Análisis de la relación entre facturación, costos operativos y rendimiento geográfico.
 
@@ -274,7 +281,7 @@ Comportamiento financiero del proyecto, cómo la inversión en marketing impacta
   <summary><b>📊 Ver auditoría de costos y segmentación geográfica</b> (haz clic para expandir)</summary>
 
   <!-- ⬇️ REEMPLAZA "ruta/de/tu/gmejorado2.png" con la ubicación real de tu imagen -->
-  ![Auditoría de Costos y Segmentación Geográfica](docs/images/mejorado2.png)
+  ![Auditoría de Costos y Segmentación Geográfica](docs/images/gmejorado2.png)
 
   ---
 
