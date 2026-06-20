@@ -87,13 +87,14 @@ Se construyó un **embudo secuencial** con los eventos registrados en la platafo
 
 ### Dashboard — Embudo de Conversión
 
-	| etapa |	usuarios	| pct_conversion_acumulada |	pct_drop_off |
-| 0	1. First Visit	7796	100.00	0.00
-| 1	2. Select Item	7393	94.83	5.17
-| 2	3. Add to Cart	7052	90.46	4.61
-| 3	4. Begin Checkout	6364	81.63	9.76
-| 4	5. Add Payment Info	4967	63.71	21.95
-| 5	6. Purchase	3857	49.47	22.35
+| Etapa | Usuarios | % Conversión Acumulada | % Drop Off |
+| :--- | :---: | :---: | :---: |
+| 1. First Visit | 7,796 | 100.00% | 0.00% |
+| 2. Select Item | 7,393 | 94.83% | 5.17% |
+| 3. Add to Cart | 7,052 | 90.46% | 4.61% |
+| 4. Begin Checkout | 6,364 | 81.63% | 9.76% |
+| 5. Add Payment Info | 4,967 | 63.71% | 21.95% |
+| 6. Purchase | 3,857 | 49.47% | 22.35% |
 
 ---
 
