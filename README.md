@@ -222,12 +222,48 @@ El producto estrella manda sobre el resto.
 
 </details>
 
-### Dashboard 3 — Cohortes y Retención
+### Dashboard 3 — Matriz de Eficiencia de Portafolio y Análisis de Riesgo
 
-Visualiza la matriz de retención mensual por cohorte, identifica cohortes en riesgo y muestra el funnel de conversión interactivo.
+Diagnostico de la salud financiera del catálogo mediante una comparativa entre la facturación bruta y la rentabilidad real, revelando una dependencia crítica de activos y la existencia de transacciones que erosionan el flujo de caja.
 
-![Dashboard Cohortes y Retención](gmejorado3.png)
+<details>
+  <summary><b>📊 Ver auditoría de eficiencia del portafolio y análisis de Pareto</b> (haz clic para expandir)</summary>
 
+![Dashboard Auditoría de Portafolio - Análisis de Pareto](docs/images/gmejorado1.png)
+ ---
+
+  ### 1. Axiomas (Contexto)
+  El dashboard realiza una auditoría de eficiencia sobre el portafolio de productos, evaluando la divergencia entre la generación de ingresos y el rendimiento neto. Se aplica una lógica de Pareto para diagnosticar la exposición al riesgo por concentración de activos.
+
+  ---
+
+  ### 2. Definiciones (Componentes)
+  - **Comparativa de Rendimiento (Gráfico de barras agrupadas):** Muestra el diferencial entre la facturación bruta y la utilidad neta por producto.
+
+  - **Análisis de Pareto (Gráfico combinado):** Representa la contribución marginal de cada producto al flujo de caja total, utilizando una curva de acumulación para identificar la criticidad de los activos.
+
+  - **KPI de Alerta (Tarjeta):** Indicador de contingencia sobre transacciones con rendimiento negativo (**4502**).
+
+  ---
+
+  ### 3. Reglas de Inferencia (Relaciones)
+  - **Divergencia de márgenes:** Existe una desproporción estructural significativa en el producto *"Laptop-Gaming-16Gb"*. Aunque es el motor de ingresos, la relación con la utilidad neta sugiere una ineficiencia operativa o una política de precios que erosiona el margen.
+
+  - **Ley de Concentración 80/20:** El gráfico inferior confirma una dependencia extrema: un solo activo representa el **83.71%** de la facturación acumulada. Esto reduce la resiliencia del modelo ante perturbaciones en la demanda de dicho activo.
+
+  ---
+
+  ### 4. Excepciones (Anomalías)
+  - **Contradicción de Rentabilidad:** La tarjeta de *"Alerta de Productos con Pérdida"* (**4502**) actúa como una excepción sistemática. Indica que, independientemente del volumen de ventas, existe una falla estructural recurrente que genera una destrucción de valor en el flujo de caja, lo cual debe ser mitigado mediante una auditoría de costos unitarios.
+
+  ---
+
+  ### 5. Teoremas Operativos (Insights)
+  - **Teorema de Fragilidad Operativa:** La estructura actual carece de diversificación. Al estar el **83.71%** del flujo de caja concentrado en una única categoría, el modelo de negocio es altamente sensible a la volatilidad de ese segmento.
+
+  - **Imperativo de Optimización de Margen:** El volumen no debe ser la única métrica de éxito. La existencia de **4502** transacciones con pérdida implica la necesidad de ajustar la estructura de costos directos o revisar el posicionamiento de precio de los productos "ancla".
+
+</details>
 ---
 
 ## 🧮 Medidas DAX
