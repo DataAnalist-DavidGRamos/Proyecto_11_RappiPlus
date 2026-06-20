@@ -177,11 +177,50 @@ Presenta los KPIs de negocio más relevantes: Revenue Total, Profit Total, Marge
 
 </details>
 
-### Dashboard 2 — Análisis de Ventas y Canales
+### Dashboard 2 — Matriz de Concentración de Demanda y Trazabilidad de Rendimiento Operativo
 
-Desglosa el Revenue y el ROI por canal de marketing, ticket promedio, y crecimiento YoY.
+El producto estrella manda sobre el resto.
 
-![Dashboard Ventas y Canales](docs/images/gmejorado1.png)
+<details>
+  <summary><b>📊 Ver análisis detallado de Trazabilidad Operativa y Pareto</b> (haz clic para expandir)</summary>
+
+  <!-- ⬇️ REEMPLAZA "ruta/de/tu/dashboard_pareto.png" con la ubicación real de tu imagen -->
+  ![Dashboard de Trazabilidad Operativa - Análisis de Pareto](docs/images/G2.png)
+
+  ---
+
+  ### 1. Axiomas (Contexto)
+  Herramienta de trazabilidad operativa y análisis de Pareto. Su objetivo es desglosar la jerarquía de la demanda para identificar el peso relativo de cada activo en el ecosistema comercial, filtrado por variables de producto, dispositivo y canal.
+
+  ---
+
+  ### 2. Definiciones (Componentes)
+  - **Ranking de Demanda (Gráfico de barras horizontal):** Visualiza la distribución de unidades vendidas por producto, estableciendo el volumen de salida de inventario.
+
+  - **Segmentadores (Slicers):** Filtros dinámicos para *Categoría*, *Dispositivo* y *Fuente de Referencia* que permiten diseccionar la estructura de ventas según el origen del tráfico o el perfil técnico del usuario.
+
+  - **Registro de Transacciones (Tabla granular):** Matriz de datos que conecta el ID de pedido con los costos, ingresos y márgenes operativos a nivel unitario.
+
+  ---
+
+  ### 3. Reglas de Inferencia (Relaciones)
+  - **Ley de Concentración:** Existe una dependencia estructural crítica. El volumen de salida de la *Laptop-Gaming-16Gb* (**144 mil unidades**) distorsiona la escala del eje, dejando al resto de la oferta en una posición de baja relevancia cuantitativa (**6 mil o menos**).
+
+  - **Relación Costo-Valor:** La tabla muestra que una alta rotación de unidades (caso *Laptop*) no garantiza una salud proporcional en el margen operativo, dado que la estructura de costos asociada a las transacciones de alto volumen puede penalizar la eficiencia final.
+
+  ---
+
+  ### 4. Excepciones (Anomalías)
+  - **Dispersión de Rendimiento:** Se observan transacciones individuales (como *order_10010* o *order_10001*) donde el costo de producción y la estructura de precios resultan en un margen negativo, rompiendo la tendencia general de los pedidos más exitosos. Estos puntos son "ruido" estructural que requiere aislamiento.
+
+  ---
+
+  ### 5. Teoremas Operativos (Insights)
+  - **Teorema de Dependencia de Activo:** La operación actual se sostiene sobre un monoproducto (*Laptop-Gaming-16Gb*). Cualquier fluctuación en la estructura de costos de este único artículo tendrá un impacto sistémico superior al **90%** en la estabilidad del modelo.
+
+  - **Necesidad de Diversificación:** Para equilibrar la geometría del negocio, la estrategia debe virar hacia la optimización del mix de ventas. Los artículos de baja demanda (*Vacuum-Pro*, *Blender*, *Tablet*) deben dejar de ser considerados residuales y ser analizados bajo una lógica de optimización de margen, ya que su peso actual no es suficiente para diversificar el riesgo operativo.
+
+</details>
 
 ### Dashboard 3 — Cohortes y Retención
 
