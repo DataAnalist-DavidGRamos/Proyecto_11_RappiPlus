@@ -87,76 +87,13 @@ Se construyó un **embudo secuencial** con los eventos registrados en la platafo
 
 ### Dashboard — Embudo de Conversión
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>etapa</th>
-      <th>usuarios</th>
-      <th>pct_conversion_acumulada</th>
-      <th>pct_drop_off</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1. First Visit</td>
-      <td>7796</td>
-      <td>100.00</td>
-      <td>0.00</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2. Select Item</td>
-      <td>7393</td>
-      <td>94.83</td>
-      <td>5.17</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3. Add to Cart</td>
-      <td>7052</td>
-      <td>90.46</td>
-      <td>4.61</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4. Begin Checkout</td>
-      <td>6364</td>
-      <td>81.63</td>
-      <td>9.76</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5. Add Payment Info</td>
-      <td>4967</td>
-      <td>63.71</td>
-      <td>21.95</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>6. Purchase</td>
-      <td>3857</td>
-      <td>49.47</td>
-      <td>22.35</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+	| etapa |	usuarios	| pct_conversion_acumulada |	pct_drop_off |
+| 0	1. First Visit	7796	100.00	0.00
+| 1	2. Select Item	7393	94.83	5.17
+| 2	3. Add to Cart	7052	90.46	4.61
+| 3	4. Begin Checkout	6364	81.63	9.76
+| 4	5. Add Payment Info	4967	63.71	21.95
+| 5	6. Purchase	3857	49.47	22.35
 
 ---
 
