@@ -104,8 +104,14 @@ Se construyó un **embudo secuencial** con los eventos registrados en la platafo
 
 Se agruparon los usuarios por su **mes de primera compra** (cohorte de adquisición) y se calculó el porcentaje de usuarios que regresaron a comprar en los meses siguientes.
 
-![Matriz de Cohortes y Retención Mensual](G2.png)
-
+![Matriz de Cohortes y Retención Mensual]()
+| Cohorte | Usuarios Iniciales | Retenido W1 | Retenido W2 | Retenido W3 | Semana 1 | Semana 2 | Semana 3 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| 2025-01-01 | 1,627 | 697 | 668 | 656 | 42.84% | 41.06% | 40.32% |
+| 2025-02-01 | 1,444 | 611 | 609 | 635 | 42.31% | 42.17% | 43.98% |
+| 2025-03-01 | 1,636 | 677 | 705 | 690 | 41.38% | 43.09% | 42.18% |
+| 2025-04-01 | 1,606 | 680 | 697 | 663 | 42.34% | 43.40% | 41.28% |
+| 2025-05-01 | 1,687 | 695 | 676 | 706 | 41.20% | 40.07% | 41.85% |
 **Lecturas clave de la matriz:**
 
 - **Cohortes de enero–marzo 2021:** Muestran la retención más sólida, con tasas del 30–45% en el segundo mes y decaimiento gradual esperado.
