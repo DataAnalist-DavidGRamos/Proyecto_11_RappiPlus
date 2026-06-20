@@ -55,7 +55,7 @@ Datos crudos → EDA + Limpieza → Análisis de Embudos
      → Análisis de Cohortes → Modelado DAX → Dashboard Power BI
 ```
 
-> 📄 Ver documento completo del pipeline: [`pipeline_antigravity_end_to_end_base.pdf`](pipeline_antigravity_end_to_end_base.pdf)
+> 📄 Ver documento completo del pipeline: [`pipeline_antigravity_end_to_end_base.pdf`](docs/pipeline_antigravity_end_to_end_base.pdf)
 
 ---
 
