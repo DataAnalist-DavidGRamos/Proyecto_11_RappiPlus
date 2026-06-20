@@ -112,7 +112,7 @@ Se agruparon los usuarios por su **mes de primera compra** (cohorte de adquisici
 | 2025-03-01 | 1,636 | 677 | 705 | 690 | 41.38% | 43.09% | 42.18% |
 | 2025-04-01 | 1,606 | 680 | 697 | 663 | 42.34% | 43.40% | 41.28% |
 | 2025-05-01 | 1,687 | 695 | 676 | 706 | 41.20% | 40.07% | 41.85% |
-**Lecturas clave de la matriz:**
+
 
 - **Cohortes de enero–marzo 2021:** Muestran la retención más sólida, con tasas del 30–45% en el segundo mes y decaimiento gradual esperado.
 - **Cohortes recientes (Q4 2021):** Retención en el mes 1 por debajo del 20%, lo que sugiere una degradación en la experiencia de onboarding o en la propuesta de valor percibida.
