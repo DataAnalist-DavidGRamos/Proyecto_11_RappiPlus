@@ -264,6 +264,55 @@ Diagnostico de la salud financiera del catálogo mediante una comparativa entre 
   - **Imperativo de Optimización de Margen:** El volumen no debe ser la única métrica de éxito. La existencia de **4502** transacciones con pérdida implica la necesidad de ajustar la estructura de costos directos o revisar el posicionamiento de precio de los productos "ancla".
 
 </details>
+
+### Dashboard 4 Diagnóstico de Erosión de Valor y Distribución Regional
+Análisis de la relación entre facturación, costos operativos y rendimiento geográfico.
+
+Comportamiento financiero del proyecto, cómo la inversión en marketing impacta el flujo de efectivo y cómo se distribuye la rentabilidad final a través de los mercados clave (Argentina, Colombia y México).
+
+<details>
+  <summary><b>📊 Ver auditoría de costos y segmentación geográfica</b> (haz clic para expandir)</summary>
+
+  <!-- ⬇️ REEMPLAZA "ruta/de/tu/gmejorado2.png" con la ubicación real de tu imagen -->
+  ![Auditoría de Costos y Segmentación Geográfica](docs/images/gmejorado2.png)
+
+  ---
+
+  ### 1. Axiomas (Contexto)
+  La imagen *gmejorado2.png* funciona como una herramienta de auditoría de costos y segmentación geográfica. El objetivo es visualizar el "camino" del dinero desde la facturación bruta hasta el resultado neto, identificando ineficiencias en los productos y diferencias en el rendimiento por país.
+
+  ---
+
+  ### 2. Definiciones (Componentes)
+  - **Diagrama de Dispersión (Arriba izquierda):** Mapea los productos según su balance de Revenue vs. Profit. Permite identificar rápidamente si existen productos con alto volumen pero baja rentabilidad.
+
+  - **Mapa de Árbol / Treemap (Derecha):** Visualiza la jerarquía de la rentabilidad total distribuida por país, donde el tamaño del área es proporcional al resultado neto.
+
+  - **Gráfico de Cascada (Waterfall - Abajo):** Muestra el efecto de la Inversión en Marketing como un factor reductor del ingreso bruto original para llegar al total disponible.
+
+  ---
+
+  ### 3. Reglas de Inferencia (Relaciones)
+  - **Impacto de la inversión:** El gráfico de cascada es clave: identifica una reducción directa de **3 mill.** por inversión en marketing, lo que implica que el éxito final del proyecto depende de la eficiencia de esta erogación.
+
+  - **Dominancia Geográfica:** La estructura del Treemap muestra una asimetría marcada. *Argentina* concentra la gran mayoría del resultado neto (**4,508 mil**), evidenciando una dependencia estratégica de este mercado frente a *Colombia* y *México*.
+
+  - **Eficiencia de Productos:** La dispersión indica que la mayoría de los productos se agrupan en un cuadrante de bajo revenue y profit, sugiriendo una falta de diversificación en activos de alto rendimiento.
+
+  ---
+
+  ### 4. Excepciones (Anomalías)
+  - **Concentración Extrema:** La brecha entre el mercado de *Argentina* y el resto es tan significativa que cualquier inestabilidad en esa geografía específica pondría en riesgo la estructura de resultados totales.
+
+  ---
+
+  ### 5. Teoremas Operativos (Insights)
+  - **Teorema de la Rentabilidad Geográfica:** El modelo es altamente dependiente de la estabilidad en *Argentina*. Se requiere validar si la inversión de **3 mill.** en marketing está rindiendo proporcionalmente en los tres países o si está siendo absorbida mayoritariamente por un solo mercado.
+
+  - **Optimización de la Cascada:** Para mejorar la rentabilidad final, es necesario auditar qué canales de marketing (de los analizados en paneles anteriores) están contribuyendo al "bloque rojo" de **3 mill.** de pérdida y ajustar la inversión hacia canales de mayor conversión real.
+
+</details>
+
 ---
 
 ## 🧮 Medidas DAX
