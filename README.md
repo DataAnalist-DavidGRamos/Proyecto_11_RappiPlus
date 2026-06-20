@@ -104,7 +104,7 @@ Se construyó un **embudo secuencial** con los eventos registrados en la platafo
 
 Se agruparon los usuarios por su **mes de primera compra** (cohorte de adquisición) y se calculó el porcentaje de usuarios que regresaron a comprar en los meses siguientes.
 
-![Matriz de Cohortes y Retención Mensual]
+####Matriz de Cohortes y Retención Mensual
 | Cohorte | Usuarios Iniciales | Retenido W1 | Retenido W2 | Retenido W3 | Semana 1 | Semana 2 | Semana 3 |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 2025-01-01 | 1,627 | 697 | 668 | 656 | 42.84% | 41.06% | 40.32% |
