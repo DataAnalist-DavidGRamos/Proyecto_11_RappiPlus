@@ -582,8 +582,12 @@ Proyecto_11_RappiPlus/
 ├─ 📁 data/                          # Datasets limpios para análisis
 │   ├─ catalog_clean.csv
 │   ├─ marketing_clean.csv
-│   └─ orders_clean.csv
-│
+│   ├─ orders_clean.csv
+├─ 📁 tablas/                        # Tablas de eventos y usuarios
+│   ├─ events_exported.csv
+│   ├─ events_sample.csv
+│   ├─ user_activity_exported.csv
+│   └─ users_exported.csv
 ├─ 📁 notebooks/                     # Análisis en Python
 │   └─ David German_revisado.ipynb
 │
@@ -610,21 +614,14 @@ Proyecto_11_RappiPlus/
 │   ├─ Monto_Waterfall.dax
 │   └─ ROI_por_Canal_Pct.dax
 │
-├─ 📁 tablas/                        # Tablas de eventos y usuarios
-│   ├─ events_exported.csv
-│   ├─ events_sample.csv
-│   ├─ user_activity_exported.csv
-│   └─ users_exported.csv
-│
 ├─ 📁 docs/images/                   # Capturas de dashboards
-│   └─ G1.png
-│
+│   ├─ G1.png                        # Resumen Ejecutivo de Rentabilidad
+│   ├─ G2.png                        # Matriz de Concentración de Demanda y Trazabilidad de Rendimiento Operativo
+│   ├─ gmejorado1.png                # Matriz de Eficiencia de Portafolio y Análisis de Riesgo
+│   ├─ gmejorado2..png               # Diagnóstico de Erosión de Valor y Distribución Regional
+│   ├─ gmejorado3.png                # Evaluación de Eficiencia Publicitaria y Retorno de Inversión (ROI)
 ├─ Proyecto_Final_Mejorado.pbix      # Entregable Power BI
 ├─ pipeline_antigravity_end_to_end_base.pdf
-├─ G2.png                            # Matriz de cohortes
-├─ gmejorado1.png                    # Dashboard ejecutivo
-├─ gmejorado2..png                   # Dashboard ventas
-├─ gmejorado3.png                    # Dashboard cohortes
 └─ README.md
 ```
 
