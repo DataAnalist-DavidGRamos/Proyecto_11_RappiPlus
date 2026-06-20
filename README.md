@@ -129,7 +129,53 @@ El entregable principal es el archivo [`Proyecto_Final_Mejorado.pbix`](Proyecto_
 
 Presenta los KPIs de negocio más relevantes: Revenue Total, Profit Total, Margen Neto %, inversión de marketing y análisis Pareto de productos.
 
+
+
+<details>
+  <summary><b>📊 Ver análisis detallado del Dashboard Financiero</b> (haz clic para expandir)</summary>
+
+  <!-- ⬇️ REEMPLAZA "ruta/de/tu/dashboard.png" con la ubicación real de tu imagen -->
 ![Dashboard Ejecutivo de Rentabilidad](docs/images/G1.png)
+
+  ---
+
+  ### 1. Axiomas (Contexto)
+  El tablero consolida la salud financiera de la organización analizando ingresos, rentabilidad y eficiencia de marketing. El periodo abarca de **enero a junio de 2025**. El enfoque principal es entender cómo la inversión y la estructura de ventas impactan en el margen operativo.
+
+  ---
+
+  ### 2. Definiciones (Componentes y Análisis)
+  - **KPIs Superiores (Tarjetas):** Proporcionan una vista instantánea. Destaca un **Revenue Total de 51.87 mill.** frente a un **Profit Total de 5.91 mill.**, con un margen promedio del **11.39%**. El **Ticket Promedio de 2.10 mil** sugiere una estrategia de valor unitario moderado.
+
+  - **Evolución Mensual (Gráfico Combinado - Izquierda):** Muestra una desconexión crítica en **junio**. Mientras que el Revenue se mantuvo robusto, el **Profit Margin % cayó drásticamente a -0.77%**, indicando que los costos operativos de ese mes superaron los ingresos generados.
+
+  - **Crecimiento YTD (Líneas - Derecha):** Confirma una tendencia alcista constante en Revenue, pero un estancamiento en Profit a partir de abril, lo que refuerza la señal de alerta sobre la estructura de costos.
+
+  - **Análisis por Categoría (Barras apiladas - Abajo izquierda):** *Electrónica* domina el volumen de ventas pero muestra una rentabilidad (barra oscura) significativamente menor en comparación con *Hogar* y *Moda*, que tienen un mix de ganancia bruta mucho más sano.
+
+  - **Geografía (Barras apiladas - Abajo centro):** *Argentina* destaca con el mayor volumen de facturación (**21 mill.**), seguida de *Mexico* (**20 mill.**) y *Colombia* (**11 mill.**).
+
+  - **Marketing (Barras - Abajo derecha):** El gasto está concentrado en *Social*, *Organic* y *Paid Search*, con una inversión total de **2.87 mill.**
+
+  ---
+
+  ### 3. Reglas de Inferencia (Insights y Relaciones)
+  - **El dilema de la eficiencia:** Existe una clara divergencia entre facturación y rentabilidad. La empresa está creciendo en ventas (línea ascendente azul en el gráfico YTD), pero la eficiencia del margen es volátil. El desplome de junio es el insight más urgente.
+
+  - **Problema de Mix de Producto:** El análisis por categoría revela una ineficiencia estructural. *Electrónica* es un "generador de tráfico" (alto Revenue, baja ganancia), mientras que *Hogar* y *Moda* son los motores reales de utilidad.
+
+  - **Ineficiencia en la Inversión:** La inversión en marketing es alta (**2.87 mill.**), pero no parece estar correlacionada con una mejora sostenida del Profit Margin hacia el final del semestre.
+
+  ---
+
+  ### 4. Teoremas Operativos (Conclusiones Estratégicas)
+  - **Auditoría de Junio:** Es imperativo realizar una revisión contable/operativa de junio. El margen negativo (**-0.77%**) sugiere un gasto extraordinario o una caída abrupta en los precios de venta que debe ser mitigada.
+
+  - **Rebalanceo de Portafolio:** Se sugiere una estrategia de *upselling* o *cross-selling* en la categoría de Electrónica para intentar mejorar su margen de ganancia bruta, equiparándolo al de las otras categorías.
+
+  - **Optimización de Marketing:** Dado que el Revenue crece pero el Profit se estanca, la inversión en canales de adquisición debe ser evaluada por su **ROAS (Return on Ad Spend)** real en lugar de su volumen de inversión.
+
+</details>
 
 ### Dashboard 2 — Análisis de Ventas y Canales
 
