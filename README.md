@@ -119,21 +119,17 @@ Se agruparon los usuarios por su **mes de primera compra** (cohorte de adquisici
 - **Plateau de retención:** A partir del mes 4, la retención se estabiliza entre 5–12%, lo que indica un núcleo de usuarios fieles que vale la pena segmentar para estrategias de lealtad.
 - **Acción recomendada:** Implementar campañas de reactivación dirigidas a usuarios de cohortes con retención mes 2 < 15%, con incentivos personalizados durante las primeras 4 semanas de adquisición.
 
-### Dashboard — Retención por Cohorte
-
-![Dashboard Retención por Cohorte](G2.png)
-
 ---
 
 ## 📊 Dashboard Power BI
 
-El entregable principal es el archivo [`Proyecto_Final_Mejorado.pbix`](Proyecto_Final_Mejorado.pbix) que contiene 3 dashboards interactivos.
+El entregable principal es el archivo [`Proyecto_Final_Mejorado.pbix`](Proyecto_Final_Mejorado.pbix) que contiene 5 dashboards interactivos.
 
 ### Dashboard 1 — Resumen Ejecutivo de Rentabilidad
 
 Presenta los KPIs de negocio más relevantes: Revenue Total, Profit Total, Margen Neto %, inversión de marketing y análisis Pareto de productos.
 
-![Dashboard Ejecutivo de Rentabilidad](gmejorado1.png)
+![Dashboard Ejecutivo de Rentabilidad](docs/images/G1.png)
 
 ### Dashboard 2 — Análisis de Ventas y Canales
 
