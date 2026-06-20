@@ -135,7 +135,7 @@ Presenta los KPIs de negocio más relevantes: Revenue Total, Profit Total, Marge
 
 Desglosa el Revenue y el ROI por canal de marketing, ticket promedio, y crecimiento YoY.
 
-![Dashboard Ventas y Canales](gmejorado2..png)
+![Dashboard Ventas y Canales](docs/images/gmejorado1.png)
 
 ### Dashboard 3 — Cohortes y Retención
 
