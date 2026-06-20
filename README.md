@@ -274,7 +274,7 @@ Comportamiento financiero del proyecto, cómo la inversión en marketing impacta
   <summary><b>📊 Ver auditoría de costos y segmentación geográfica</b> (haz clic para expandir)</summary>
 
   <!-- ⬇️ REEMPLAZA "ruta/de/tu/gmejorado2.png" con la ubicación real de tu imagen -->
-  ![Auditoría de Costos y Segmentación Geográfica](docs/images/gmejorado2.png)
+  ![Auditoría de Costos y Segmentación Geográfica](docs/images/mejorado2.png)
 
   ---
 
