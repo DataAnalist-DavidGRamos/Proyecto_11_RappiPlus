@@ -177,7 +177,8 @@ Presenta los KPIs de negocio más relevantes: Revenue Total, Profit Total, Marge
 
 </details>
 
-
+---
+---
 
 ### Dashboard 2 — Matriz de Concentración de Demanda y Trazabilidad de Rendimiento Operativo
 
@@ -224,8 +225,8 @@ El producto estrella manda sobre el resto.
 
 </details>
 
-
-
+---
+---
 ### Dashboard 3 — Matriz de Eficiencia de Portafolio y Análisis de Riesgo
 
 Diagnostico de la salud financiera del catálogo mediante una comparativa entre la facturación bruta y la rentabilidad real, revelando una dependencia crítica de activos y la existencia de transacciones que erosionan el flujo de caja.
@@ -270,7 +271,8 @@ Diagnostico de la salud financiera del catálogo mediante una comparativa entre 
 
 </details>
 
-
+---
+---
 
 ### Dashboard 4 Diagnóstico de Erosión de Valor y Distribución Regional
 Análisis de la relación entre facturación, costos operativos y rendimiento geográfico.
@@ -321,7 +323,61 @@ Comportamiento financiero del proyecto, cómo la inversión en marketing impacta
 </details>
 
 ---
+---
 
+### Dashboard 5 - Evaluación de Eficiencia Publicitaria y Retorno de Inversión (ROI)
+
+Análisis de causalidad entre la inversión en canales digitales y la rentabilidad neta por categoría.
+Cuantifica la relación directa entre el gasto en marketing y la generación de valor neto. Evalúa si la inversión publicitaria está impulsando crecimiento rentable o si simplemente está escalando el volumen de ventas sin mejorar la eficiencia operativa.
+
+<details>
+  <summary><b>📊 Ver auditoría de eficacia de canales de adquisición</b> (haz clic para expandir)</summary>
+
+  <!-- ⬇️ REEMPLAZA "ruta/de/tu/dashboard_canales.png" con la ubicación real de tu imagen -->
+  ![Auditoría de Canales de Adquisición y Rentabilidad](docs/images/gmejorado3.png)
+
+  ---
+
+  ### 1. Axiomas (Contexto)
+  El tablero audita la eficacia de los canales de adquisición (*Social*, *Orgánico*, *Paid Search*) y su impacto en el margen neto por categoría de producto. El objetivo es determinar el valor real generado por cada dólar invertido en marketing.
+
+  ---
+
+  ### 2. Definiciones (Componentes)
+  - **Eficiencia por Categoría (Gráfico de barras agrupadas - Arriba):** Cruza el volumen de facturación total contra el margen neto porcentual, exponiendo la rentabilidad real de cada línea de negocio (*Electrónica*, *Hogar*, *Moda*).
+
+  - **KPI Central:** Indicador de *"Profit por $ Mkt"* (**2.06**), que establece la ratio de eficiencia global de la inversión.
+
+  - **Efectividad de Canales (Gráfico combinado - Abajo):** Muestra la Inversión en Marketing (barras) frente al indicador de rentabilidad (línea) por canal de captación.
+
+  ---
+
+  ### 3. Reglas de Inferencia (Relaciones)
+  - **Divergencia entre Facturación y Margen:** Existe una contradicción estructural: *Electrónica* genera un volumen masivo (**$45,528 mil**), pero su margen neto es marginal (**0.00%**). Esto confirma que, en el modelo actual, el volumen de ventas no se traduce linealmente en rentabilidad.
+
+  - **Rendimiento de Inversión por Canal:** El gráfico inferior muestra que, a pesar de niveles de inversión similares en *Social*, *Organic* y *Paid Search*, el rendimiento (*Profit por $ Mkt*) muestra una pendiente ascendente hacia *Paid Search*.
+
+  ---
+
+  ### 4. Excepciones (Anomalías)
+  - **Margen Negativo:** Las categorías *Hogar* y *Moda* presentan un margen neto negativo (**-0.03%**), lo que significa que, bajo la estructura actual, estas categorías actúan como centros de costo que drenan el valor generado, en lugar de contribuir a la utilidad final.
+
+  ---
+
+  ### 5. Teoremas Operativos (Insights)
+  - **Teorema de la Trampa de Volumen:** El negocio está optimizado para facturar, no para capitalizar. La alta facturación en *Electrónica* con margen cero indica que el producto se comporta como un commodity de bajo valor agregado.
+
+  - **Reasignación Estratégica:** El indicador de **2.06** (*Profit por $ Mkt*) debe ser la métrica guía. Cualquier canal o categoría que opere por debajo de este valor debe ser sujeto a una reingeniería de costos, ya que actualmente está subsidiando ventas poco rentables.
+
+  - **Acciones Propuestas:**
+    - Calcular el punto de equilibrio por canal.
+    - Optimizar mix de inversión publicitaria.
+    - Auditar estructura de costos en *Hogar* y *Moda*.
+
+</details>
+
+---
+---
 ## 🧮 Medidas DAX
 
 Todas las medidas DAX se encuentran en la carpeta [`src/dax/`](src/dax/) como archivos individuales.
