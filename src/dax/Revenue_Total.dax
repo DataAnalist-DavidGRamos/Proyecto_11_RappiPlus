@@ -1,1 +1,0 @@
-MEASURE '_Medidas Base y de Rentabilidad'[Revenue Total] = SUM(orders_clean[monto_total])
